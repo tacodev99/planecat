@@ -31,6 +31,14 @@ html, body {
     width: 17%; /* Adjust percentage as needed */
     height: auto; /* Maintain aspect ratio */
   }
+
+  #overlay-image-3 {
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    width: 17%; /* Adjust percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
   
   #book-image {
     width: 50%; /* Adjust percentage as needed */
