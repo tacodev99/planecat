@@ -1,0 +1,49 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 42, 23);
+  }
+  
+  #book-container {
+    text-align: center;
+  }
+  
+  #book-image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #overlay-image {
+      position: absolute;
+      top: 30%;
+      left: 33%;
+      width: 15%; /* Adjust percentage as needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  #overlay-image-2 {
+    position: absolute;
+    top: 28%;
+    left: 51.5%;
+    width: 17%; /* Adjust percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  #book-image {
+    width: 50%; /* Adjust percentage as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  #book-text {
+    position: absolute;
+    top: 75%;
+    left: 59%;
+    transform: translate(-50%, -50%) rotate(2deg);
+    padding: 10px;
+    display: inline-block;
+    white-space: normal; /* Allow text to wrap */
+    max-width: 500px; /* Adjust maximum width as needed */
+  }
